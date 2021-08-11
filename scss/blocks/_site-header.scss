@@ -1,3 +1,18 @@
+@media only screen and (min-width:720px){
+  .site-header__links{
+    display:block;
+  }
+  .site-header__button-span{
+    display: none;
+  }
+
+  .site-header__hamburger-list{
+    display: none;
+  }
+}
+
+
+
 .site-header__container{
   width: 100%;
   margin: 20px 0;
@@ -15,9 +30,13 @@
 
 .site-header__logo-list{
   width: 100%;
+  max-width: 139px;
   height: 20px;
 }
 
 .site-header__logo{
   display: block;
+}
+.site-header__links-list{
+  display: flex;
 }

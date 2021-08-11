@@ -1,0 +1,20 @@
+@media only screen and (max-width:356px){
+  .site-main__phones-images{
+    width: 100%;
+  }
+}
+
+
+.site-main__container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.site-main__phones-list{
+  width: 100%;
+}
+.site-main__phones-images{
+  width: 100%;
+  max-width: 732px;
+  height: auto;
+}
