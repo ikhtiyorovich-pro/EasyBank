@@ -1,14 +1,17 @@
 @media only screen and (min-width:720px){
+  .site-header__hamburger-list{
+    display: none;
+  }
+  
+}
+@media only screen and (max-width:720px){
   .site-header__links{
-    display:block;
+    display: none;
   }
   .site-header__button-span{
     display: none;
   }
-
-  .site-header__hamburger-list{
-    display: none;
-  }
+  
 }
 
 
@@ -39,4 +42,8 @@
 }
 .site-header__links-list{
   display: flex;
+}
+.site-header__links{
+  text-decoration: none;
+  padding: 0 15px;
 }
