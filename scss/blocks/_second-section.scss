@@ -1,5 +1,79 @@
-.site-main__second-container{
+@media only screen and (max-width:1185px){
+  .site-main__second-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin-top: 72px;
+  }
+  .second-section__species-list{
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+  }
   
+  .site-main__second-section{
+    background-color: #F4F5F7;
+    margin-top: -50px;
+    padding-top: 30px;
+    transform: translateY(270px);
+  }
+  .site-main__second-top-item{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    list-style: none;
+    text-align: center;
+    transform: scale(0.9);
+  }
+}
+@media only screen and (max-width:1060px){
+  .second-section__species-list +  .second-section__species-list + .second-section__species-list + .second-section__species-list{
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-right: 20px;
+  }
+}
+
+
+@media only screen and (max-width:805px){
+  .second-section__species-list +  .second-section__species-list + .second-section__species-list{
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width:550px){
+  .second-section__species-list +  .second-section__species-list {
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width:500px){
+  .site-main__second-section{
+    background-color: #F4F5F7;
+    margin-top: -50px;
+    padding-top: 30px;
+    transform: translateY(100px);
+  }
+}
+
+.site-main__second-section{
+  background-color: #F4F5F7;
+  margin-top: -50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.site-main__second-container{
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
@@ -8,27 +82,76 @@
 }
 
 .site-main__second-top-item{
-  margin-top: -80px;
+  width: 100%;
+  max-width: 635px;
+
+  list-style: none;
 }
+
 
 .site-main__second-heading{
   font-family: Public Sans, sans-serif;
-font-style: normal;
-font-weight: 100;
-font-size: 40px;
-line-height: 64px;
-letter-spacing: -0.714286px;
-margin: 0;
-margin-bottom: 16px;
-color: #2D314D;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 16px;
 }
 .site-main__second-paragraph{
   font-family: Public Sans, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: -0.28125px;
-color: #9597A5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+.site-main__second-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 72px;
+}
 
+.second-section__species-list{
+  width: 100%;
+  max-width: 255px;
+  padding-right: 20px;
+}
+.second-section__species-list:hover{
+  cursor: pointer;
+  width: 100%;
+  max-width: 255px;
+  padding-right: 20px;
+  transform: scale(1.1);
+  transition: 0.5s all;
+}
+.second-section__species-list + .second-section__species-list{
+  width: 100%;
+  max-width: 255px;
+  padding-right: 10px;
+}
+
+.second-section__headings{
+  font-family: Public Sans, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+}
+
+.second-section__paragraph{
+  font-family: Public Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
 }
