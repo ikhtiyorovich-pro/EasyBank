@@ -80,9 +80,16 @@
     transform: translateX(15px);
   }
 }
+@media only screen and (max-width:500px){
+  .site-footer{
+    background-color: #2D314D;
+    transform: translateY(100px);
+  }
+}
 
 .site-footer{
   background-color: #2D314D;
+  padding-bottom: 70px;
 }
 .site-footer__container{
   width: 100%;
